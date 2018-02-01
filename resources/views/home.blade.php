@@ -1,23 +1,75 @@
-@extends('layouts.app')
+@extends('layouts.footer')
 
 @section('content')
-<div class="container">
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            <div class="panel panel-default">
-                <div class="panel-heading">Dashboard</div>
+{{--<div class="container">--}}
+{{--<div class="row">--}}
+{{--<div class="col-md-8 col-md-offset-2">--}}
+{{--<div class="panel panel-default">--}}
+{{--<div class="panel-heading">Dashboard</div>--}}
 
-                <div class="panel-body">
-                    @if (session('status'))
-                        <div class="alert alert-success">
-                            {{ session('status') }}
+{{--<div class="panel-body">--}}
+{{--@if (session('status'))--}}
+{{--<div class="alert alert-success">--}}
+{{--{{ session('status') }}--}}
+{{--</div>--}}
+{{--@endif--}}
+
+{{--You are logged in!--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</div>--}}
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>Answers from</h1>
+    </section>
+    <!-- Main content -->
+    <section class="content">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="box">
+                    <div class="box-header">
+                        <h3 class="box-title">All handed in Assigments.</h3>
+                    </div>
+                    <!-- /.box-header -->
+                        <div class="box-body">
+                            <table class="table table-bordered table-striped overviews">
+                                <thead>
+                                <tr>
+                                    <th class="no-sort">Question</th>
+                                    <th class="no-sort">Answer</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+
+                                </tbody>
+                            </table>
+
                         </div>
-                    @endif
+                        <hr>
+                        <div class="box-body">
+                            <table class="table table-bordered table-striped overviews">
+                                <tbody>
+                                <tr>
 
-                    You are logged in!
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    <!-- /.box-body -->
                 </div>
+                <!-- /.box -->
             </div>
+            <!-- /.col -->
         </div>
-    </div>
+        <!-- /.row -->
+    </section>
+    <!-- /.content -->
 </div>
+<!-- /.content-wrapper -->
+
 @endsection
+
+@extends('layouts.app')
