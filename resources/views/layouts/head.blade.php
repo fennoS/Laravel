@@ -15,7 +15,7 @@
     <link href="{{ asset('adminLTE/dist/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('resources/custom/css/custom.css') }}" rel="stylesheet">
     <link href="{{ asset('adminLTE/dist/css/skins/skin-blue.css') }}" rel="stylesheet">
-    <link href="{{ asset('adminLTE/dist/datatabels/dataTabels.bootstrap.css') }}" rel="stylesheet">
+    <link href="{{ asset('adminLTE/dist/datatabels/dataTables.bootstrap.css') }}" rel="stylesheet">
     <link href="{{ asset('adminLTE/dist/css/datepicker3.css') }}" rel="stylesheet">
     {{-- Font-Awsome --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">

@@ -1,33 +1,30 @@
 @extends('layouts.master')
 
 @section('content')
-    <!-- Main content -->
-    <div class="col-xs-12">
+    <section class="content">
         <div class="box">
             <div class="box-header">
-                <h3 class="box-title">All handed in Assigments.</h3>
+                <h3 class="box-title">Alle beschikbare stageplaatsen</h3>
             </div>
-            <!-- /.box-header -->
             <div class="box-body">
-                <table class="table table-bordered table-striped overviews">
+                <table id="onlineTrainersTable" class="table table-bordered table-hover">
                     <thead>
                     <tr>
-                        <th class="no-sort">Question</th>
-                        <th class="no-sort">Answer</th>
+                        <th>Bedrijf</th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr>
-                        <td>Question</td>
-                        <td>Answer</td>
+                        <td>UNIQUE</td>
                     </tr>
                     </tbody>
+                    <tfoot>
+                    <tr>
+                        <th>Bekijken</th>
+                    </tr>
+                    </tfoot>
                 </table>
             </div>
-            <!-- /.box-body -->
         </div>
-        <!-- /.box -->
-    </div>
-    <!-- /.col -->
-
+    </section>
 @endsection
